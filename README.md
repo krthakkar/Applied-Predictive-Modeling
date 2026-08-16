@@ -19,38 +19,8 @@ Among the models considered, Gradient Boosting provides the best cross-validatio
 
 ## Repository Structure
 
-```text
-├── Code/
-│   └── Python notebook containing data preparation, model estimation,
-│       cross-validation, and prediction
-│
-├── Data/
-│   ├── Training dataset
-│   └── Test dataset
-│
-├── Model and Results/
-│   ├── PDF describing the data, methodology, models, and results
-│   └── Gradient Boosting predictions for the test dataset
-│
-└── README.md
-```
+- **`Data`** — Training and test datasets used for the predictive modeling exercise.
 
-## Data
+- **`Code`** — Python notebook containing data preparation, preprocessing, model estimation, cross-validation, model comparison, and prediction.
 
-The `Data` folder contains two datasets:
-
-- **Training data:** Contains the predictor variables and observed life expectancy used for model estimation and evaluation.
-- **Test data:** Contains the predictor variables without observed life expectancy and is used to generate final predictions.
-
-## Model Evaluation
-
-Hyperparameters are selected using grid search with five-fold cross-validation. Model performance is evaluated using Mean Absolute Error (MAE).
-
-## Results
-
-Gradient Boosting achieves the lowest average cross-validation MAE among the models considered and is used to generate predictions for the test dataset.
-
-The `Model and Results` folder contains:
-
-- A PDF describing the data, modeling approach, and results.
-- Predicted life expectancy values for the test dataset.
+- **`Model and Results`** — PDF describing the data, methodology, predictive models, and results, along with the Gradient Boosting predictions for the test dataset.
