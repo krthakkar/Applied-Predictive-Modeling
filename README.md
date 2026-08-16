@@ -1,4 +1,4 @@
-# Applied-Predictive-Modeling
+# Machine Learning-Based Predictive Modeling
 Applied predictive modeling with Elastic Net, Random Forest, and Gradient Boosting on a HackerRank cross-sectional dataset.
 
 This project develops and compares predictive models for life expectancy using a set of socioeconomic, demographic, and country-level indicators.
