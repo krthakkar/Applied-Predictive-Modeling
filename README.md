@@ -33,3 +33,24 @@ Among the models considered, Gradient Boosting provides the best cross-validatio
 │   └── Gradient Boosting predictions for the test dataset
 │
 └── README.md
+```
+
+## Data
+
+The `Data` folder contains two datasets:
+
+- **Training data:** Contains the predictor variables and observed life expectancy used for model estimation and evaluation.
+- **Test data:** Contains the predictor variables without observed life expectancy and is used to generate final predictions.
+
+## Model Evaluation
+
+Hyperparameters are selected using grid search with five-fold cross-validation. Model performance is evaluated using Mean Absolute Error (MAE).
+
+## Results
+
+Gradient Boosting achieves the lowest average cross-validation MAE among the models considered and is used to generate predictions for the test dataset.
+
+The `Model and Results` folder contains:
+
+- A PDF describing the data, modeling approach, and results.
+- Predicted life expectancy values for the test dataset.
